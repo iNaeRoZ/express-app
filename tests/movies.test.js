@@ -11,7 +11,7 @@ describe("GET /api/movies", () => {
   });
 });
 
-describe("GET /api/movies/1", () => {
+describe("GET /api/movies/", () => {
   it("should return one movie", async () => {
     const response = await request(app).get("/api/movies/1");
 
